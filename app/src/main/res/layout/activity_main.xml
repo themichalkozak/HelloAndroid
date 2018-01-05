@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.themichalkozak.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/newbackgroundd"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="300dp"
+        android:src="@drawable/stairs"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/Blackboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/long_horizontal"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/Smartlearning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="@string/nanodegree_program"
+        android:padding="2dp"
+        android:layout_alignBottom="@+id/Blackboard"
+        android:layout_centerInParent="true"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:text="Udacity"
+        android:layout_alignParentRight="true"
+        android:background="#FF7927"
+        android:layout_above="@+id/web"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_alignParentRight="true"
+        android:text="www.udacity.com"
+        android:background="#FF7927"
+        android:layout_above="@+id/Telefon"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+
+    <TextView
+        android:id="@+id/Telefon"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffff"
+        android:text="650-555-5555"
+        android:background="#EF7623"
+        android:layout_above="@+id/e-mail"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+
+
+    <TextView
+        android:id="@+id/e-mail"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#EF7623"
+        android:paddingLeft="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="54dp"
+        android:text="2465 Latham St Mountain View, CA 94043 "
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+
+
+
+
+
+</RelativeLayout>
